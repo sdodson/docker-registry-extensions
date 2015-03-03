@@ -17,6 +17,7 @@ RUN yum update -y && \
                    python-greenlet \
                    unzip \
                    xz-devel \
+                   file \
                    gcc && \
     curl -L -O https://github.com/openshift/docker-registry/archive/master.zip && \
     unzip master.zip && \
